@@ -1,10 +1,46 @@
 .condensed {
     height: 0px;
     overflow: hidden;
+    background-color: none;
     transition: height 1s;
 }
 .show {
-    height: 30px;
-    background-color: white;
+    height: 54px;
     transition: height 1s;
+}
+
+
+body {
+    background-image:url('img/beach.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  h1 {
+      padding-top: 45px;
+      text-align: center;
+      color: white;
+      font-size: 4rem;
+  }
+
+  h2 {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+p {
+    text-align: center;
+    color: red;
+    background-color: none;
+    font-size: 1.6rem;
+}
+
+footer {
+    margin-top: 13%;
+    text-align: center;
+    color:white;
+    font-size: 1.5rem;
+
 }
