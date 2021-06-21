@@ -14,18 +14,15 @@ xmlhttp.onreadystatechange = function() {
 xmlhttp.open('GET', 'http://api.openweathermap.org/data/2.5/weather?q=33175,us&appid=6efff70fe1477748e31c17d1c504635f', true);
 xmlhttp.send();
 
-var taco_wrapper = document.getElementById('taco-wrapper');
-var taco = document.getElementById('taco');
+var city_name = document.getElementById('cityname');
+var temp = document.getElementById('temp');
 var button = document.getElementById('button');
 var button2 = document.getElementById('button2');
 
-// function toggleDropdown() {
-//     taco_wrapper.classList.toggle('condensed');
 
-// }
 function toggleDropdown() {
-    taco_wrapper.classList.toggle('show');
-    taco.classList.toggle('show');
+    city_name.classList.toggle('show');
+    temp.classList.toggle('show');
 }
 button.addEventListener('click',toggleDropdown);
 button2.addEventListener('click',toggleDropdown);

@@ -1,7 +1,6 @@
 .condensed {
     height: 0px;
     overflow: hidden;
-    background-color: none;
     transition: height 1s;
 }
 .show {
@@ -33,7 +32,6 @@ body {
 p {
     text-align: center;
     color: red;
-    background-color: none;
     font-size: 1.6rem;
 }
 
